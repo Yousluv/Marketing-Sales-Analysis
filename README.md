@@ -16,6 +16,9 @@ The report analyzes the performance of multiple Marketing campaigns (Fall, Sprin
 -	Address Fall Decline: Review and optimize fall campaigns, particularly in September, to mitigate performance drops.
 -	Platform Optimization: Continue leveraging Pinterest for high conversion rates, while refining strategies for Instagram and Facebook to boost their performance.
 -	Seasonal Targeting: Design campaigns tailored to holiday periods in October and November to maintain high engagement and conversion rates.
+## Introduction
+In this project, I will be assuming the role of a BI consultant who has just been hired by this fictional Marketing company, As they look to optimize their ad spend. they’ve brought me in to analyze interesting patterns and trends in their data and help them make informed decisions.
+
 ## Scope of the Campaign.
 Our company has been running multiple marketing campaigns across various channels (Facebook, Instagram, Pinterest) to promote our products. We have collected detailed data on daily ad performance, including metrics like impressions, clicks, spend, conversions, and engagement (likes, shares, comments). This project aims to analyze this data to gain insights into the effectiveness of our campaigns, optimize our ad spend, and improve future marketing strategies.
 ## Objectives:
@@ -72,97 +75,97 @@ The dataset contains the following columns:
 -	Return on investment: The Financial return on investment
 -	Conversion rate: The percentage of users who take a desired action out of the total audience.
 
-## KEY QUESTIONS TO ANSWER.
+## KEY Business QUESTIONS TO ANSWER.
 ## Campaign Performance:
-	5.1.1	Which campaign generated the highest number of impressions, clicks, and conversions? 
+1.1 Which campaign generated the highest number of impressions, clicks, and conversions? 
 Impressions: Fall has the highest Impressions of 6,434,259, followed by Spring with impressions of 4,751,611, and summer with 3,459,578.
-Clicks: Fall has the highest clicks of 85,120, Followed by Spring (57,620) and Summer with clicks of 38,816.
-Conversion: Fall has the highest Conversion of 14,889, followed by Summer (12,753) and Spring (12,753)
+**Clicks:** Fall had the highest clicks of 85,120, Followed by Spring (57,620) and Summer with clicks of 38,816.
+**Conversion:** Fall had the highest Conversion of 14,889, followed by Summer (12,753) and Spring (12,753)
 
 ![](Q1.png)
-Insights:
-•	The Fall campaign generated the highest impressions and clicks, maximizing brand awareness but had a lower conversion rate, potentially missing out on conversion opportunities despite its wide reach.
-•	The Spring campaign achieved a balanced approach with strong conversion efficiency, effectively turning a moderate number of clicks into conversions. This indicates good efficiency in converting clicks into conversions
-•	The Summer campaign, despite its low Impressions and clicks, it had the highest conversion rate. This suggests that it was highly targeted and effective in turning clicks into conversions meaning it was highly effective in converting a smaller audience, driving excellent results from fewer impressions and clicks.
+**Insights:**
+- The Fall campaign generated the highest impressions and clicks, maximizing brand awareness but had a lower conversion rate, potentially missing out on conversion opportunities despite its wide reach.
+- The Spring campaign achieved a balanced approach with strong conversion efficiency, effectively turning a moderate number of clicks into conversions. This indicates good efficiency in converting clicks into conversions
+- The Summer campaign, despite its low Impressions and clicks, it had the highest conversion rate. This suggests that it was highly targeted and effective in turning clicks into conversions meaning it was highly effective in converting a smaller audience, driving excellent results from fewer impressions and clicks.
 
-Recommendations:
-•	Optimize conversions for fall Campaign: Despite good engagement, the conversion rate could be improved by Optimizing the campaign.
-•	Increase reach for Spring campaign: Given the high conversion efficiency, the campaign could benefit from targeting a larger audience to capture more conversions.
-•	Refine targeting: Narrow down the audience for even higher conversion rates and engagement.
-•	Scale up the summer campaign: The extremely high conversion rate suggests a well-targeted strategy. Increasing the reach could maximize conversions.
-•	 The tactics used in the summer campaign should be applied to other campaigns to improve conversion rates across the board.
+**Recommendations:**
+- Optimize conversions for fall Campaign: Despite good engagement, the conversion rate could be improved by Optimizing the campaign.
+- Increase reach for Spring campaign: Given the high conversion efficiency, the campaign could benefit from targeting a larger audience to capture more conversions.
+- Refine targeting: Narrow down the audience for even higher conversion rates and engagement.
+- Scale up the summer campaign: The extremely high conversion rate suggests a well-targeted strategy. Increasing the reach could maximize conversions.
+- The tactics used in the summer campaign should be applied to other campaigns to improve conversion rates across the board.
 
 
-5.1.2	What is the average cost-per-click (CPC) and click-through rate (CTR) for each campaign?
+1.2 What is the average cost-per-click (CPC) and click-through rate (CTR) for each campaign?
 Average-cost Per click (Avg CPC):
-•	Summer: £0.084 
-•	Spring: £0.050
-•	Fall: £0.037
-Click-Through rate (CTR)
-•	Summer: 1.12% 
-•	Spring: 1.21%
-•	Fall: 1.32%
-![]()
+- Summer: £0.084 
+- Spring: £0.050
+- Fall: £0.037
+**Click-Through rate (CTR)**
+Summer: 1.12% 
+- Spring: 1.21%
+- Fall: 1.32%
+![](CPC_CTR.png)
 
-Insights:
-The Summer campaign had the highest cost per click (£0.084) but the lowest click-through rate (1.12%), suggesting that it's more expensive yet less engaging.
-The Spring campaign balanced cost and engagement, with a moderate CPC (£0.050) and CTR (1.21%), indicating solid performance.
-The Fall campaign was the most cost-efficient with the lowest CPC (£0.037) and the highest CTR (1.32%), making it the most effective in driving engagement for the money spent.
+**Insights:**
+- The Summer campaign had the highest cost per click (£0.084) but the lowest click-through rate (1.12%), suggesting that it's more expensive yet less engaging.
+- The Spring campaign balanced cost and engagement, with a moderate CPC (£0.050) and CTR (1.21%), indicating solid performance.
+- The Fall campaign was the most cost-efficient with the lowest CPC (£0.037) and the highest CTR (1.32%), making it the most effective in driving engagement for the money spent.
 
-5.2	 Channel Effectiveness: 
-5.2.1	Which channel has the highest ROI?
+**Channel Effectiveness:** 
+2.1 Which channel has the highest ROI?
 ROI by Campaign:
 Pinterest: Has the Highest ROI of 2150.70%
 Instagram: 980.10%
 Facebook: 475.90%
-![]()
+![](RO1_campaign.png)
 
-Data-Driven Insights
+**Data-Driven Insights**
 Pinterest generated the highest ROI at 2150.70%, indicating that it is exceptionally effective at converting spending into revenue. This suggests that audiences on Pinterest are highly engaged and likely respond positively to ads.
 Instagram follows with an ROI of 980.10%, which is also very strong. This platform appears to be a significant driver of returns
 Facebook Had a ROI of 475.90%, which is lower than the other two channels but still indicates a positive return on investment. This suggests that while it is not the top performer, it still contributes to overall profitability.
 
-Recommendations:
-•	Increase investment in Pinterest.
-•	Evaluate and test new strategies on Facebook to improve its performance.
-•	Consider cross-promoting content between platforms to drive traffic and enhance overall results
+**Recommendations:**
+- Increase investment in Pinterest.
+- Evaluate and test new strategies on Facebook to improve its performance.
+- Consider cross-promoting content between platforms to drive traffic and enhance overall results
 Implementing these strategies will help to optimize marketing efforts and maximize ROI across channels.
 
-5.2.2	How do impressions, clicks, and conversions vary across different channels
-Impression:
-•	Facebook: 5,439,591
-•	Instagram:4,840,638
-•	Pinterest:4,365,220
-Clicks:
-•	Facebook: 69,961
-•	Instagram: 68,655
-•	Pinterest: 42,982
-Conversions:
-•	Facebook: 13,132
-•	Instagram: 15,590
-•	Pinterest: 11,530
-![]()
+2.2 How do impressions, clicks, and conversions vary across different channels
+**Impression:**
+- Facebook: 5,439,591
+- Instagram:4,840,638
+- Pinterest:4,365,220
+**Clicks:**
+- Facebook: 69,961
+- Instagram: 68,655
+- Pinterest: 42,982
+**Conversions:**
+-Facebook: 13,132
+- Instagram: 15,590
+- Pinterest: 11,530
+![](Ads_performance.png)
 Insights:
-•	Facebook has the most impressions (5,439,591) but a lower conversion rate compared to Instagram. This means Facebook is effective for reach but needs better engagement strategies to improve conversions.
-•	Instagram leads in conversions with 15,590, indicating it’s highly efficient at driving action from users. Instagram is the most efficient- conversion channel.
-•	Pinterest has the fewest impressions but generates competitive conversions (11,530) with a strong conversion efficiency. Pinterest converts well with fewer impressions, showing it attracts a highly intent-driven audience.
+- Facebook has the most impressions (5,439,591) but a lower conversion rate compared to Instagram. This means Facebook is effective for reach but needs better engagement strategies to improve conversions.
+- Instagram leads in conversions with 15,590, indicating it’s highly efficient at driving action from users. Instagram is the most efficient- conversion channel.
+- Pinterest has the fewest impressions but generates competitive conversions (11,530) with a strong conversion efficiency. Pinterest converts well with fewer impressions, showing it attracts a highly intent-driven audience.
 
-5.3	Geographical Insights:
-5.3.1	Which cities have the highest engagement rates (likes, shares, comments)?  
+**3.0. Geographical Insights:**
+3.1 Which cities have the highest engagement rates (likes, shares, comments)?  
 Engagements: London had the highest engagements (285,706), followed by Manchester (276,159) and Birmingham Had the lowest engagements (237,874)
-![]()
+![](engagement.png)
 
-Data-driven Insights:
-•	London had the highest engagements (285,706), making it the most active city with a high audience base.
-•	Manchester follows closely with 278,159 engagements, indicating strong engagement.
-•	Birmingham has the lowest engagements at 237,874, but still shows significant activity.
-•	Run city-specific campaigns tailored to local trends in London and Manchester, while offering special incentives for Birmingham.
+**Data-driven Insights:**
+- London had the highest engagements (285,706), making it the most active city with a high audience base.
+- Manchester follows closely with 278,159 engagements, indicating strong engagement.
+- Birmingham has the lowest engagements at 237,874, but still shows significant activity.
+- Run city-specific campaigns tailored to local trends in London and Manchester, while offering special incentives for Birmingham.
 
-5.3.2	What is the conversion rate by city?
-•	Birmingham: 28%
-•	Manchester: 22%
-•	London: 17%
-![]()
+3.2	What is the conversion rate by city?
+- Birmingham: 28%
+- Manchester: 22%
+-London: 17%
+![](conversion_rate.png)
 
 Insights:
 •	Birmingham had the highest conversion rate (28%), indicating a highly action-oriented audience. 

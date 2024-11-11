@@ -83,6 +83,7 @@ Impressions: Fall has the highest Impressions of 6,434,259, followed by Spring w
 **Conversion:** Fall had the highest Conversion of 14,889, followed by Summer (12,753) and Spring (12,753)
 
 ![](Q1.png)
+
 **Insights:**
 - The Fall campaign generated the highest impressions and clicks, maximizing brand awareness but had a lower conversion rate, potentially missing out on conversion opportunities despite its wide reach.
 - The Spring campaign achieved a balanced approach with strong conversion efficiency, effectively turning a moderate number of clicks into conversions. This indicates good efficiency in converting clicks into conversions
@@ -105,6 +106,7 @@ Average-cost Per click (Avg CPC):
 Summer: 1.12% 
 - Spring: 1.21%
 - Fall: 1.32%
+
 ![](CPC_CTR.png)
 
 **Insights:**
@@ -118,7 +120,8 @@ ROI by Campaign:
 Pinterest: Has the Highest ROI of 2150.70%
 Instagram: 980.10%
 Facebook: 475.90%
-![](RO1_campaign.png)
+
+![](ROI_Channel2.png)
 
 **Data-Driven Insights**
 Pinterest generated the highest ROI at 2150.70%, indicating that it is exceptionally effective at converting spending into revenue. This suggests that audiences on Pinterest are highly engaged and likely respond positively to ads.
@@ -144,8 +147,10 @@ Implementing these strategies will help to optimize marketing efforts and maximi
 -Facebook: 13,132
 - Instagram: 15,590
 - Pinterest: 11,530
+
 ![](Ads_performance.png)
-Insights:
+
+**Insights:**
 - Facebook has the most impressions (5,439,591) but a lower conversion rate compared to Instagram. This means Facebook is effective for reach but needs better engagement strategies to improve conversions.
 - Instagram leads in conversions with 15,590, indicating it’s highly efficient at driving action from users. Instagram is the most efficient- conversion channel.
 - Pinterest has the fewest impressions but generates competitive conversions (11,530) with a strong conversion efficiency. Pinterest converts well with fewer impressions, showing it attracts a highly intent-driven audience.
@@ -153,7 +158,8 @@ Insights:
 **3.0. Geographical Insights:**
 3.1 Which cities have the highest engagement rates (likes, shares, comments)?  
 Engagements: London had the highest engagements (285,706), followed by Manchester (276,159) and Birmingham Had the lowest engagements (237,874)
-![](engagement.png)
+
+![](Engagment_city.png)
 
 **Data-driven Insights:**
 - London had the highest engagements (285,706), making it the most active city with a high audience base.
@@ -161,10 +167,11 @@ Engagements: London had the highest engagements (285,706), followed by Mancheste
 - Birmingham has the lowest engagements at 237,874, but still shows significant activity.
 - Run city-specific campaigns tailored to local trends in London and Manchester, while offering special incentives for Birmingham.
 
-3.2	What is the conversion rate by city?
+3.2. What is the conversion rate by city?
 - Birmingham: 28%
 - Manchester: 22%
 -London: 17%
+
 ![](conversion_rate.png)
 
 Insights:
@@ -177,42 +184,47 @@ Recommendations:
 •	Personalize campaigns for each city based on their unique conversion behavior.
 •	Analyze London’s conversion barriers to improve performance and address issues in the user journey.
 
-5.4	Device Performance:	
-5.4.1	How do ad performances compare across different devices (mobile, desktop, tablet)?
+**4.0 Device Performance:**
+4.1	How do ad performances compare across different devices (mobile, desktop, tablet)?
 Impressions: Impressions: Mobile drives the most impressions (8,845,239)
 Clicks: Mobile has the highest clicks (92,766)
 Conversions: Desktop has the highest conversions (21,310)
-![]()
-Performance by Device:
+
+![](Ads_performance.png)
+
+**Performance by Device:**
 Impressions: Mobile drives the most impressions (8,845,239)
 Clicks: Mobile had the highest clicks (92,766)
 Conversions: Desktop had the highest conversions (21,310)
 
-5.4.2	Which device-type generates the highest conversion rates?
+4.2.	Which device-type generates the highest conversion rates?
 Conversion Rate:
 •	Desktop: 23%
 •	Mobile: 20%
-![]()
 
-Insights:
-•	Mobile drives the most impressions (8,845,239) and clicks (92,766) but a lower conversion (18,942). It has a lower conversion rate (20%). This suggests that while mobile drives more visibility and engagement, it is less efficient at converting clicks into sales or actions.
-•	Desktop had lower impressions (5,800,160) and clicks (88,832) but achieved a higher number of conversions (21,310). This indicates that Desktop users are more likely to convert, suggesting a stronger purchase intent. it Has as conversion rate of 23%.
+![](Conversion_Rate_device.png)
 
-Recommendations:
+**Insights:**
+- Mobile drives the most impressions (8,845,239) and clicks (92,766) but a lower conversion (18,942). It has a lower conversion rate (20%). This suggests that while mobile drives more visibility and engagement, it is less efficient at converting clicks into sales or actions.
+- Desktop had lower impressions (5,800,160) and clicks (88,832) but achieved a higher number of conversions (21,310). This indicates that Desktop users are more likely to convert, suggesting a stronger purchase intent. it Has as conversion rate of 23%.
+
+**Recommendations:**
 •	Improve the mobile user experience to boost conversions (e.g., better landing pages, faster checkout).
 •	Capitalize on desktop’s high conversion rate by continuing to target this audience.
 •	Test mobile-specific campaigns and ensure a seamless experience across devices to capture conversions from users switching between mobile and desktop.
 
-5.5.1	Ad-Level Analysis:
-5.5.1	Which specific ads are performing best in terms of engagement and conversions?
-Engagements by Ads:
+5.0. Ad-Level Analysis:
+5.1. Which specific ads are performing best in terms of engagement and conversions?
+**Engagements by Ads:**
 •	Discount: Had highest engagements (459,629).
 •	Collection: Had a lower engagement (342,110).
-Conversions:
+**Conversions:**
 •	Discount: Had the highest Conversions (21,183)
 •	Collection: 19,069
-![]()
-Insights:
+
+![](engagement.png)
+
+**Insights:**
 •	Discount ads drive more engagements.
 •	Collection ads have fewer engagements but a higher conversion rate.
 Recommendations:
@@ -220,7 +232,7 @@ Recommendations:
 •	Target Collection ads to users with higher intent to maintain strong conversion performance.
 •	Test combining discount and collection ads to boost both engagement and conversions.
 
-5.5.2	What are the common characteristics of high-performing ads?
+5.2.	What are the common characteristics of high-performing ads?
 High-performing ads typically share the following characteristics:
 •	Clear Message: They communicate the value proposition concisely.
 •	Strong Visuals: High-quality images or videos that resonate with the audience.
@@ -230,22 +242,27 @@ High-performing ads typically share the following characteristics:
 •	Social Proof: Use testimonials or reviews for credibility.
 •	Mobile Optimization: Designed for easy viewing on mobile devices.
 
-5.6	ROI Calculation:
-5.6.1	What is the ROI for each campaign, and how does it compare across different channels and devices?
-![]()
+6	ROI Calculation:
+6.1.	What is the ROI for each campaign, and how does it compare across different channels and devices?
+
+![](RO1_campaign.png)
+
 ROI Insights:
 •	Summer Campaign: Highest ROI at 92.9%, indicating the most Successful and best overall performance.
 •	Spring Campaign: Strong ROI of 90.1%.
 •	Fall Campaign: Lowest ROI at 89.4%.
 Overall, all campaigns performed well, with minimal differences in ROI, but the summer campaign stood out as the top performer.
 
-![]()
-Insight:
-•	Summer Campaign: Generate the Highest ROI for both desktop (93.1%) and mobile (92.6%), with minimal difference between devices.
-•	Spring Campaign: Desktop (90.4%) outperformed mobile (89.6%), but both performed well.
-•	Fall Campaign: Lowest performance overall, with desktop (89.9%) higher than mobile (88.9%).
+![](QROI_device.png)
+
+**Insight:**
+- Summer Campaign: Generate the Highest ROI for both desktop (93.1%) and mobile (92.6%), with minimal difference between devices.
+- Spring Campaign: Desktop (90.4%) outperformed mobile (89.6%), but both performed well.
+- Fall Campaign: Lowest performance overall, with desktop (89.9%) higher than mobile (88.9%).
 Key Takeaway: Desktop consistently outperformed mobile across all campaigns, with the summer campaign delivering the best results on both devices, and the Fall campaign showing the weakest performance, especially on mobile.
-![]()
+
+![](ROI_Channel2.png)
+
 Data-Driven Insights:
 •	Pinterest:
 o	Highest ROI across all campaigns with 96% in Spring and Summer and 95% in Fall, indicating it is the most effective platform for driving conversions.  It shows strong performance across different seasons.
@@ -256,15 +273,18 @@ o	Strong performance with 93% ROI in Summer, 90% in Spring, and 89% in Fall, mak
 Key Takeaway:
 Brands should prioritize Pinterest for high ROI campaigns, leverage Instagram for seasonal marketing, and reassess Facebook strategies due to declining returns. 
 
-5.6.2	How does spend correlate with conversion value across different campaigns?
+6.2	How does spend correlate with conversion value across different campaigns?
 Summary:
 •	Fall Campaign: Total Spend of £79,281 and a conversion value of £749,005.99 with an ROI of 843.51%.
 •	Spring Campaign: Total Spend of £49,548 and a conversion value of £498,285.06 with an ROI of 903.76%
 •	Summer Campaign: Lowest spend of £34,352, and conversion value of £484,409.21. highest ROI at 1,308.88%,
-![]()
-Correlation Insights:
+
+![](Spend_Conversion.png)
+
+**Correlation Insights:**
 •	There is a positive correlation between total spend and total conversion value, but spending efficiency varies across campaigns.
-•	The Summer campaign achieved high conversion value with the lowest spend, indicating effective targeting or messaging.
+•	T
+he Summer campaign achieved high conversion value with the lowest spend, indicating effective targeting or messaging.
 •	The Fall campaign had the highest spending but lower ROI, suggesting the need for optimization to improve efficiency.
 Recommendations:
 1.	Emphasize Efficient Spending: Implement strategies to maintain high conversion values with lower investment, as seen in the summer campaign.
@@ -274,7 +294,9 @@ Recommendations:
 
 5.7.0	Time Series Analysis:
 5.7.0	Are there any noticeable trends or seasonal effects in ad performance over time
-![]()
+
+![](Ads_Trend.png)
+
 Overall Growth:
 Total engagements rose from 73,488 in March to a peak of 99,464 in October, reflecting a general upward trend.
 Monthly Insights:
@@ -294,9 +316,10 @@ Recommendations:
 •	Boost Summer Engagement: Develop strategies to raise engagement during July and August.
 •	Continue Monitoring Trends: Regularly track monthly engagement to refine future 
 strategies.
-![]()
 
-Insights:
+![](Conversion_Trend.png)
+
+**Insights:**
 •	Highest Conversion Rates: Occurred in June (34%), July (32%), and August (31%).
 •	Steady Start: Conversion rates from March to May ranged between 20-23%.
 •	Post-Summer Decline: A significant drop to 15% in September, followed by a slight recovery to 19% in November.
@@ -306,7 +329,8 @@ Key Insights:
 Recommendations:
 •	Maximize efforts during high-conversion summer months.
 •	Investigate and improve strategies to counteract the decline in fall conversions.
-5.8.0	Conclusion:
+
+**Conclusion:**
 Based on the analytical results and data-driven insights, the marketing campaigns (Summer, Spring and Fall) were successful overall, with notable strengths and weakness across key channels and devices, Suggesting need for improvement and optimization. Channels such as Pinterest and Instagram excelled, generating high engagement and conversion rates, while other platforms showed potential for further optimization. Performance varied across demographics and devices, highlighting the need for more targeted strategies in the future. This campaign has provided a solid foundation for future growth, and the insights and recommendations gained will be crucial in shaping more effective marketing strategies moving forward.
 
 

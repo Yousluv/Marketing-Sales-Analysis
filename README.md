@@ -16,6 +16,7 @@ The report analyzes the performance of multiple Marketing campaigns (Fall, Sprin
 -	Address Fall Decline: Review and optimize fall campaigns, particularly in September, to mitigate performance drops.
 -	Platform Optimization: Continue leveraging Pinterest for high conversion rates, while refining strategies for Instagram and Facebook to boost their performance.
 -	Seasonal Targeting: Design campaigns tailored to holiday periods in October and November to maintain high engagement and conversion rates.
+
 ## Introduction
 In this project, I will be assuming the role of a BI consultant who has just been hired by this fictional Marketing company, As they look to optimize their ad spend. they’ve brought me in to analyze interesting patterns and trends in their data and help them make informed decisions.
 
@@ -110,9 +111,9 @@ Data profiling is crucial as it provides a comprehensive understanding of the qu
 
 ### Campaign Performance:
 1. Which campaign generated the highest number of impressions, clicks, and conversions? 
-Impressions: Fall has the highest Impressions of 6,434,259, followed by Spring with impressions of 4,751,611, and summer with 3,459,578.
-**Clicks:** Fall had the highest clicks of 85,120, Followed by Spring (57,620) and Summer with clicks of 38,816.
-**Conversion:** Fall had the highest Conversion of 14,889, followed by Summer (12,753) and Spring (12,753)
+- **Impressions:** Fall had the highest Impressions of **6,434,259**, followed by Spring with impressions of 4,751,611, and summer with 3,459,578.
+- **Clicks:** Fall had the highest clicks of **85,120**, Followed by Spring (57,620) and Summer with clicks of 38,816.
+- **Conversion:** Fall had the highest Conversion of **14,889**, followed by Summer (12,753) and Spring (12,753)
 
 ![](Q1.png)
 
@@ -130,12 +131,14 @@ Impressions: Fall has the highest Impressions of 6,434,259, followed by Spring w
 
 
 2. What is the average cost-per-click (CPC) and click-through rate (CTR) for each campaign?
-Average-cost Per click (Avg CPC):
+
+**Average-cost Per click (Avg CPC):**
 - Summer: £0.084 
 - Spring: £0.050
 - Fall: £0.037
+- 
 **Click-Through rate (CTR)**
-Summer: 1.12% 
+- Summer: 1.12% 
 - Spring: 1.21%
 - Fall: 1.32%
 
@@ -147,11 +150,11 @@ Summer: 1.12%
 - The Fall campaign was the most cost-efficient with the lowest CPC (£0.037) and the highest CTR (1.32%), making it the most effective in driving engagement for the money spent.
 
 **Channel Effectiveness:** 
+
 1. Which channel has the highest ROI?
-ROI by Campaign:
-Pinterest: Has the Highest ROI of 2150.70%
-Instagram: 980.10%
-Facebook: 475.90%
+- Pinterest: Had the Highest ROI of 2150.70%
+- Instagram: 980.10%
+- Facebook: 475.90%
 
 ![](ROI_Channel2.png)
 
@@ -167,14 +170,17 @@ Facebook Had a ROI of 475.90%, which is lower than the other two channels but st
 Implementing these strategies will help to optimize marketing efforts and maximize ROI across channels.
 
 2. How do impressions, clicks, and conversions vary across different channels
+
 **Impression:**
 - Facebook: 5,439,591
 - Instagram:4,840,638
 - Pinterest:4,365,220
+
 **Clicks:**
 - Facebook: 69,961
 - Instagram: 68,655
 - Pinterest: 42,982
+
 **Conversions:**
 -Facebook: 13,132
 - Instagram: 15,590
@@ -206,11 +212,12 @@ Engagements: London had the highest engagements (285,706), followed by Mancheste
 
 ![](conversion_rate.png)
 
-Insights:
+**Insights:**
 -	Birmingham had the highest conversion rate (28%), indicating a highly action-oriented audience. 
 -	Manchester had a moderate conversion rate (22%), showing good engagement and conversion potential.
 -	London had the lowest conversion rate (17%), despite high engagement, suggesting room for optimization.
-Recommendations:
+  
+**Recommendations:**
 -	Invest more in Birmingham to maximize returns, given its strong conversion rate.
 -	Optimize London’s conversion strategies to maximize its high engagement coverage.
 -	Personalize campaigns for each city based on their unique conversion behavior.
@@ -218,16 +225,16 @@ Recommendations:
 
 **Device Performance:**
 1. How do ad performances compare across different devices (mobile, desktop, tablet)?
-Impressions: Impressions: Mobile drives the most impressions (8,845,239)
-Clicks: Mobile has the highest clicks (92,766)
-Conversions: Desktop has the highest conversions (21,310)
+- Impressions: Impressions: Mobile drives the most impressions (8,845,239)
+- Clicks: Mobile has the highest clicks (92,766)
+- Conversions: Desktop has the highest conversions (21,310)
 
 ![](Ads_performance.png)
 
 **Performance by Device:**
-Impressions: Mobile drives the most impressions (8,845,239)
-Clicks: Mobile had the highest clicks (92,766)
-Conversions: Desktop had the highest conversions (21,310)
+- Impressions: Mobile drives the most impressions (8,845,239)
+- Clicks: Mobile had the highest clicks (92,766)
+- Conversions: Desktop had the highest conversions (21,310)
 
 2. Which device-type generates the highest conversion rates?
 Conversion Rate:
@@ -247,9 +254,11 @@ Conversion Rate:
 
 **Ad-Level Analysis**
 1. Which specific ads are performing best in terms of engagement and conversions?
+
 **Engagements by Ads:**
 -	Discount: Had highest engagements (459,629).
 -	Collection: Had a lower engagement (342,110).
+
 **Conversions:**
 -	Discount: Had the highest Conversions (21,183)
 -	Collection: 19,069
@@ -259,7 +268,8 @@ Conversion Rate:
 **Insights:**
 -	Discount ads drive more engagements.
 -	Collection ads have fewer engagements but a higher conversion rate.
-Recommendations:
+
+**Recommendations:**
 -	Continue using discount ads for visibility but optimize them to improve conversion rates.
 -	Target Collection ads to users with higher intent to maintain strong conversion performance.
 -	Test combining discount and collection ads to boost both engagement and conversions.
@@ -279,7 +289,7 @@ High-performing ads typically share the following characteristics:
 
 ![](RO1_campaign.png)
 
-ROI Insights:
+**ROI Insights:**
 -	Summer Campaign: Highest ROI at 92.9%, indicating the most Successful and best overall performance.
 -	Spring Campaign: Strong ROI of 90.1%.
 -	Fall Campaign: Lowest ROI at 89.4%.
@@ -295,18 +305,18 @@ Key Takeaway: Desktop consistently outperformed mobile across all campaigns, wit
 
 ![](ROI_Channel2.png)
 
-Data-Driven Insights:
-•	Pinterest:
-o	Highest ROI across all campaigns with 96% in Spring and Summer and 95% in Fall, indicating it is the most effective platform for driving conversions.  It shows strong performance across different seasons.
-•	Instagram:
-o	Strong performance with 93% ROI in Summer, 90% in Spring, and 89% in Fall, making it a valuable platform, especially during seasonal campaigns.
-•	Facebook:
-•	Lowest ROI at 90% in Summer, declining to 80% in Spring and 78% in Fall, suggesting a need for strategy reevaluation on this platform. 
-Key Takeaway:
+**Data-Driven Insights:**
+-	Pinterest:
+-	Highest ROI across all campaigns with 96% in Spring and Summer and 95% in Fall, indicating it is the most effective platform for driving conversions.  It shows strong performance across different seasons.
+-	Instagram:
+-	Strong performance with 93% ROI in Summer, 90% in Spring, and 89% in Fall, making it a valuable platform, especially during seasonal campaigns.
+-	Facebook:
+-	Lowest ROI at 90% in Summer, declining to 80% in Spring and 78% in Fall, suggesting a need for strategy reevaluation on this platform.
+
+**Key Takeaway:**
 Brands should prioritize Pinterest for high ROI campaigns, leverage Instagram for seasonal marketing, and reassess Facebook strategies due to declining returns. 
 
 2. How does spend correlate with conversion value across different campaigns?
-Summary:
 -	Fall Campaign: Total Spend of £79,281 and a conversion value of £749,005.99 with an ROI of 843.51%.
 -	Spring Campaign: Total Spend of £49,548 and a conversion value of £498,285.06 with an ROI of 903.76%
 -	Summer Campaign: Lowest spend of £34,352, and conversion value of £484,409.21. highest ROI at 1,308.88%,
@@ -314,10 +324,10 @@ Summary:
 ![](Spend_Conversion.png)
 
 **Correlation Insights:**
-•	There is a positive correlation between total spend and total conversion value, but spending efficiency varies across campaigns.
-•	T
-he Summer campaign achieved high conversion value with the lowest spend, indicating effective targeting or messaging.
-•	The Fall campaign had the highest spending but lower ROI, suggesting the need for optimization to improve efficiency.
+- There is a positive correlation between total spend and total conversion value, but spending efficiency varies across campaigns.
+- The Summer campaign achieved high conversion value with the lowest spend, indicating effective targeting or messaging.
+-	The Fall campaign had the highest spending but lower ROI, suggesting the need for optimization to improve efficiency.
+
 **Recommendations**
 1.	Emphasize Efficient Spending: Implement strategies to maintain high conversion values with lower investment, as seen in the summer campaign.
 2.	Analyze the Fall Campaign: Investigate the Fall campaign for opportunities to enhance spending efficiency while maintaining conversion levels.
@@ -329,7 +339,8 @@ he Summer campaign achieved high conversion value with the lowest spend, indicat
 
 ![](Ads_Trend.png)
 
-Overall Growth:
+
+**Overall Growth:**
 Total engagements rose from 73,488 in March to a peak of 99,464 in October, reflecting a general upward trend.
 Monthly Insights:
 -	March to June: Steady growth with monthly increases:

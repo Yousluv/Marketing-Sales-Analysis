@@ -206,9 +206,9 @@ Engagements: London had the highest engagements (285,706), followed by Mancheste
 - Run city-specific campaigns tailored to local trends in London and Manchester, while offering special incentives for Birmingham.
 
 2. What is the conversion rate by city?
-1. Birmingham: 28%
-2. Manchester: 22%
-3. London: 17%
+- Birmingham: 28%
+- Manchester: 22%
+- London: 17%
 
 ![](conversion_rate.png)
 

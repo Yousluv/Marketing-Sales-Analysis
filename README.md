@@ -54,8 +54,18 @@ The dataset contains the following columns:
 -	Shares: Total daily shares per ad. For simplicity, each Pin on Pinterest is counted as a share.
 -	Comments: Total daily comments per ad.
 
+### Data Preparation:
+A Database called Marketing_Data Database was created with SQL Query `CREATE DATABASE Marketing Data;`. A table was created also.
+The Dataset provided was in a CSV Format embedded in a zip file. The data was first extracted, Transformed and cleaned thoroughly by utilizing the Data-transformation capabilities of Power Query, before Imported into SQL. The dataset was examine for inconsistence, errors, null values, incorrect data type, spelling errors and maintain the integrity of the information, ensuring reliable insights and informed decision-making.
+### Data/Database profiling and cleaning.
+Data profiling is crucial as it provides a comprehensive understanding of the quality, structure, and relationships within a dataset, ensuring that potential issues are identified early on. Cleaning the data is equally vital to enhance accuracy, eliminate inconsistencies.
+- `EXEC SP_HELP 'MARKETINGS'` 
+- `UPDATE Marketings`
+- `SET CTR=REPLACE (CTR,'%',' ');`
+ - `ALTER TABLE MARKETINGS`
+ - `ALTER COLUMN CTR DECIMAL (5,2);`
+
 ## Methodology
--	Data Cleaning: The data was cleaned, with no missing or inconsistent entries.
 -	Descriptive Statistics: Basic statistics were computed for each metric to get an overview of the data.
 -	Aggregation and Grouping: SQL queries were used to aggregate data by different dimensions (campaign, channel, city, device).
 -	Visualization: Visualizations were created to identify trends and patterns.
@@ -65,6 +75,7 @@ The dataset contains the following columns:
 ## Tools used:
 -	SQL Server for Data Cleaning, Transformation and Manipulation (Analysis).
 -	Microsoft Excel for visualization.
+-	Power Query for ETL
 -	Microsoft Word for Report.
 -	Microsoft Power Point for Presentation.
 
@@ -75,7 +86,28 @@ The dataset contains the following columns:
 -	Return on investment: The Financial return on investment
 -	Conversion rate: The percentage of users who take a desired action out of the total audience.
 
-## KEY Business QUESTIONS TO ANSWER.
+## KEY Business QUESTIONS TO ANSWER / Problem Statement.
+1. Campaign Performance:
+-	Which campaign generated the highest number of impressions, clicks, and conversions?
+-	What is the average cost-per-click (CPC)  and click-through rate (CTR) for each campaign?
+2. Channel Effectiveness: 
+-	Which channel has the highest ROI?
+-	How do impressions, clicks, and conversions vary across different  channels?  
+3. Geographical Insights:
+-	Which cities have the highest engagement rates (likes, shares, comments)?  
+-	What is the conversion rate by city?
+4. Device Performance:	
+-	How do ad performances compare across different devices (mobile, desktop, tablet)?
+-	Which device type generates the highest conversion rates?
+5. Ad-Level Analysis:
+-	Which specific ads are performing best in terms of engagement and conversions?
+-	What are the common characteristics of high-performing ads?
+6. ROI Calculation:
+-	What is the ROI for each campaign, and how does it compare across different channels and devices?
+-	How does spend correlate with conversion value across different campaigns?
+7. Time Series Analysis:
+- Are there any noticeable trends or seasonal effects in ad performance over time?
+
 ### Campaign Performance:
 1. Which campaign generated the highest number of impressions, clicks, and conversions? 
 Impressions: Fall has the highest Impressions of 6,434,259, followed by Spring with impressions of 4,751,611, and summer with 3,459,578.
